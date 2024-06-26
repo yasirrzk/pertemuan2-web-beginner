@@ -1,0 +1,59 @@
+*,
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-style: italic;
+}
+
+header {
+    justify-content: space-between;
+    background: grey;
+    color: black;
+    padding: 10px 20px;
+    display: flex;
+}
+
+nav ul {
+    list-style: none;
+    background-color: rgb(170, 170, 170);
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+}
+
+nav ul li{
+    list-style: none;
+    background-color: rgb(180, 180, 180);
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li a {
+    color: black;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    margin: 10px 10px 10px 10px;
+    height: 800px;
+    background-color: beige;
+}
+
+article {
+    padding: 10px 10px 10px 10px;
+}
+section {
+    padding: 10px 10px 10px 10px;
+    flex-direction: row;
+}
+
+footer {
+   background: gray;
+   padding: 25px 25px;
+   color: wheat;
+   text-align: center;
+}
